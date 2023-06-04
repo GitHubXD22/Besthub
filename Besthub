@@ -1,0 +1,37 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("scripts", "DarkTheme")
+
+--home
+
+local Tab = Window:NewTab("Scripts for games")
+
+local Section = Tab:NewSection("welcome to scripts hub")
+
+Section:NewButton("",autoplay piano "  ", function()
+
+    setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/VBfHKC86WxpXyIgr/iwiwiejsaIwidi/main/TrymieKostum.lua", true))()")
+
+end)
+
+--credits
+
+local Tab = Window:NewTab("credits")
+
+local Section = Tab:NewSection("Owner")
+
+Section:NewButton("pepa", " ", function()
+
+    setclipboard("besthub")
+
+end)
+
+local Section = Tab:NewSection("Kavo UI Libary")
+
+Section:NewButton("all animations free", "loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()", function()
+
+    setclipboard("https://xheptcofficial.gitbook.io/kavo-library/#toggling-ui-with-keybinds")
+
+end)
+
+local Section = Tab:NewSection(" by Pepa")
